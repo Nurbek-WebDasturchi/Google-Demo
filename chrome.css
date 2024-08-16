@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+    #search {
+        width: 500px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    #basic-addon1 {
+        display: none;
+    }
+    #icon-google {
+        transform: scale(1.8, 1.8);
+        margin-bottom: 0;
+    }
+    .responsive {
+        display: none;
+    }
+    .microphone {
+        position: absolute;
+        top: -36px !important;
+        z-index: 3;
+        left: 600px !important;
+        margin: 0 10px 0 10px;
+    }
+    .camera {
+        position: absolute;
+        z-index: 3;
+        top: -36px !important;
+        left: 600px !important;
+        margin: 0 10px 0 10px;
+    }
+}
+body {
+    background-image: url("./google-desktop-uff7ugea44y5n8zd.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.clearfix {
+    clear: both;
+}
+/* Navbar */
+.navbar-custom {
+    position: absolute;
+    right: 10px;
+}
+.account {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.grid-custom {
+    color: wheat;
+    position: relative;
+    margin-left: 20px;
+}
+.name {
+    position: absolute;
+    top: -15px;
+    left: -4px;
+}
+/* Main case */
+.case-icon {
+    transform: scale(0.2, 0.2);
+}
+#icon-google {
+}
+/* Input group */
+.input-group-custom {
+    position: relative;
+}
+.input-case {
+    margin-top: 0;
+}
+#basic-addon1 {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#search {
+    width: 700px;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.microphone {
+    position: relative;
+    right: -700px;
+    top: -18px;
+    z-index: 3;
+}
+.camera {
+    position: relative;
+    top: -18px;
+    z-index: 3;
+    right: -640px;
+}
