@@ -1,6 +1,145 @@
 @media (max-width: 768px) {
     #search {
-        width: 500px;
+        width: 500px;@media (max-width: 768px) {
+    body {
+        background-image: none !important;
+        background-color: #212121 !important;
+    }
+    /* Nav  */
+    .account {
+        transform: scale(0.6, 0.6);
+    }
+    /* .name {
+        bottom: -3px;
+    } */
+    .case-icon {
+        position: relative;
+        bottom: -50px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .sm-none-custom {
+        display: none !important;
+    }
+
+    #search {
+        width: 100% !important;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    #basic-addon1 {
+        display: none;
+    }
+    #icon-google {
+        transform: scale(1.8, 1.8);
+        margin-bottom: 0;
+    }
+    .responsive {
+        display: none;
+    }
+    .microphone {
+        display: inline-block;
+    }
+    .camera {
+        display: inline-block;
+        margin-left: 30px !important;
+    }
+}
+body {
+    background-image: url("./google-desktop-uff7ugea44y5n8zd.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.clearfix {
+    clear: both;
+}
+/* Navbar */
+.navbar-custom {
+    position: absolute;
+    right: 10px;
+}
+.account {
+    position: relative;
+    top: -5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.grid-custom {
+    color: wheat;
+    position: relative;
+    margin-left: 20px;
+}
+.name {
+    padding-top: 30px !important;
+}
+/* Main case */
+.case-icon {
+    transform: scale(0.2, 0.2);
+}
+
+/* Input group */
+.input-group-custom {
+    position: relative;
+    width: 60% !important;
+}
+.input-case {
+    margin-top: 0;
+}
+#basic-addon1 {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#search {
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.microphone {
+    position: relative;
+    left: -70px;
+    bottom: -8px;
+    z-index: 3;
+}
+.camera {
+    position: relative;
+    left: -70px;
+    bottom: -8px;
+    z-index: 3;
+    margin-left: 10px;
+}
+/* } Apps */
+.svg-padding {
+    color: transparent;
+    padding: 3px;
+    z-index: 3;
+    transform: scale(1.3, 1.3);
+}
+.size {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.size:hover {
+    background-color: rgb(128, 126, 126);
+    opacity: 0.8;
+}
+.color {
+    color: red;
+}
+.svg {
+    height: 40px;
+    width: 40px;
+}
+#svg {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
     }
