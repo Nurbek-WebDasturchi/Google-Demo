@@ -50,11 +50,14 @@
                         </a>
                     </div>
                     <div
-                        class="bg bg-success rounded-circle account d-flex justify-content-center"
+                        class="bg bg-success rounded-circle account d-flex justify-content-center align-items-center"
                     >
-                        <a href="./helper.html">
+                        <a
+                            href="./helper.html"
+                            class="d-flex justify-content-center align-items-center position-relative"
+                        >
                             <h2
-                                class="alert text-light name d-inline position-absolute"
+                                class="alert text-light name d-inline-block position-absolute"
                             >
                                 N
                             </h2>
@@ -73,7 +76,7 @@
         </div>
         <div class="container position-relative">
             <div class="row d-flex justify-content-center input-case">
-                <div class="input-group input-group-custom">
+                <div class="input-group input-group-custom w-100">
                     <span class="input-group-text" id="basic-addon1">
                         <a href="./helper.html">
                             <svg
@@ -94,17 +97,17 @@
                         type="text"
                         class="form-control"
                         id="search"
-                        placeholder="Qidiruv so'zini yoki URL manzilini kiriting"
+                        placeholder="Qidiruv so'zini yoki DDOS manzilini kiriting"
                         aria-label="Qidiruv so'zini yoki URL manzilini kiriting"
                         aria-describedby="basic-addon1"
                     />
-                    <a href="./helper.html">
+                    <a href="./helper.html" class="position-relative mb-4">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
                             height="20"
                             fill="currentColor"
-                            class="bi bi-mic-fill microphones"
+                            class="bi bi-mic-fill microphone position-absolute start-25"
                             viewBox="0 0 16 16"
                         >
                             <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
@@ -113,13 +116,13 @@
                             />
                         </svg>
                     </a>
-                    <a href="./helper.html">
+                    <a href="./helper.html" class="position-relative mb-4">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
                             height="20"
                             fill="currentColor"
-                            class="bi bi-camera cameras"
+                            class="bi bi-camera camera position-absolute start-25"
                             viewBox="0 0 16 16"
                         >
                             <path
@@ -134,7 +137,7 @@
             </div>
         </div>
         <div
-            class="container-fluid d-flex justify-content-center flex-column position-relative"
+            class="container-fluid justify-content-center flex-column position-relative bg bg-primary d-none d-md-flex"
         >
             <!-- <div class="clearfix"></div> -->
             <div class="row d-flex justify-content-center align-items-center">
