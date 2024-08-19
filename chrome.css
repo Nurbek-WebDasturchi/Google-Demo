@@ -93,6 +93,11 @@ body {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+input::placeholder {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
 .microphone {
     position: relative;
     left: -70px;
