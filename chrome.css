@@ -46,7 +46,7 @@
 body {
     background-image: url("./google-desktop-uff7ugea44y5n8zd.jpg");
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: scroll;
 }
 .clearfix {
     clear: both;
@@ -98,6 +98,10 @@ input::placeholder {
     font-size: 18px;
     font-weight: 500;
 }
+input[type="text"] {
+    text-indent: 20px; /* Placeholder va kiritiladigan matnni 20px suradi */
+}
+
 .microphone {
     position: relative;
     left: -70px;
