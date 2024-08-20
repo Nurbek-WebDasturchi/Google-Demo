@@ -6,6 +6,8 @@
         position: relative;
         left: -80px;
     }
+    img {
+        transform: scale(1.5, 1.5);
     h6 {
         width: 100%;
     }
