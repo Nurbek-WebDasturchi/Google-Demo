@@ -94,7 +94,6 @@ body {
     border-bottom-right-radius: 30px;
 }
 input::placeholder {
-    padding-left: 20px;
     font-size: 18px;
     font-weight: 500;
 }
