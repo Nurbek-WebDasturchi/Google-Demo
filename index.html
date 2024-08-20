@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>New page</title>
+        <title>Google Chrome</title>
+        <link rel="stylesheet" href="./accounts.css" />
         <link
             rel="icon"
             type="image/png"
             href="./Google_Chrome_icon_(February_2022).svg.png"
         />
-        <link rel="stylesheet" href="./chrome.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -17,211 +17,129 @@
             crossorigin="anonymous"
         />
     </head>
-    <body class="d-flex justify-content-center flex-column">
-        <div class="container position-relative">
-            <div class="row d-flex justify-content-end navbar-custom">
-                <nav class="d-flex mt-4">
-                    <div class="mt-1">
-                        <a
-                            href="./helper.html"
-                            class="p-1 text-light responsive"
-                            >Pochta</a
-                        >
-                        <a
-                            href="./helper.html"
-                            class="p-1 text-light responsive"
-                            >Rasmlar</a
-                        >
-                    </div>
-                    <div class="mt-1">
-                        <a href="./helper.html">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="20"
-                                height="20"
-                                fill="currentColor"
-                                class="bi bi-grid-3x3-gap-fill grid-custom"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"
-                                />
-                            </svg>
-                        </a>
-                    </div>
-                    <div
-                        class="bg bg-success rounded-circle account d-flex justify-content-center align-items-center"
-                    >
-                        <a
-                            href="./helper.html"
-                            class="d-flex justify-content-center align-items-center position-relative"
-                        >
-                            <h2
-                                class="alert text-light name d-inline-block position-absolute"
-                            >
-                                N
-                            </h2>
-                        </a>
-                    </div>
-                </nav>
-            </div>
-            <div class="row d-flex justify-content-center case-icon">
-                <img
-                    src="./google_logo.svg"
-                    alt="Bilasanmi seni PC inga Googleni ko'zi tekgan!"
-                    class="img-fluid"
-                    id="icon-google"
-                />
-            </div>
-        </div>
-        <div class="container position-relative">
-            <div class="row d-flex justify-content-center input-case">
-                <div class="input-group input-group-custom w-100">
-                    <span class="input-group-text" id="basic-addon1">
-                        <a href="./helper.html">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-search"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
-                                />
-                            </svg>
-                        </a>
-                    </span>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="search"
-                        placeholder="Qidiruv so'zini kiriting"
-                        aria-label="Qidiruv so'zini yoki URL manzilini kiriting"
-                        aria-describedby="basic-addon1"
-                    />
-                    <a href="./helper.html" class="position-relative mb-4">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            fill="currentColor"
-                            class="bi bi-mic-fill microphone position-absolute start-25"
-                            viewBox="0 0 16 16"
-                        >
-                            <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
-                            <path
-                                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"
-                            />
-                        </svg>
-                    </a>
-                    <a href="./helper.html" class="position-relative mb-4">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            fill="currentColor"
-                            class="bi bi-camera camera position-absolute start-25"
-                            viewBox="0 0 16 16"
-                        >
-                            <path
-                                d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"
-                            />
-                            <path
-                                d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
-                            />
-                        </svg>
-                    </a>
-                </div>
-                <div
-                    class="col-12 d-flex w-100 justify-content-center d-md-none m-3"
-                >
-                    <a
-                        href="https://www.spot.uz/oz/2024/05/14/gpt-4o/"
-                        class="text-decoration-none"
-                    >
+    <body class="bg bg-dark d-flex justify-content-center flex-column">
+        <div
+            class="container-fluid d-flex justify-content-center flex-column container-custom"
+        >
+            <img
+                src="./Google_Chrome_icon_(February_2022).svg.png"
+                alt="Chrome Logo yuklanmadi!"
+                class="img-fluid rounded-circle img-style"
+            />
+            <h1 class="text-light text-center">Chromedan kim foydalanadi?</h1>
+            <h6 class="text-light text-center">
+                Chrome profillari brauzerdan alohida foydalanishga ruxsat berish
+                uchun kerak,<br />
+                masalan, turli odamlar tomonidan yoki turli maqsadlarda.
+            </h6>
+            <div class="row mt-md-5 responsive-row mt-0">
+                <div class="col-3">
+                    <a href="./noresult.html" class="text-decoration-none">
                         <div
-                            class="card rounded bg bg-dark"
-                            style="width: 100%; height: 25rem"
+                            class="card d-flex justify-content-center border border-light bg bg-dark"
+                            style="width: 15rem; height: 15rem"
                         >
-                            <img
-                                src="./imageChatgptpPost.jpg"
-                                class="card-img-top img-fluid h-50"
-                                alt="Suggested new's image not loaded!"
-                            />
-                            <div class="card-body">
+                            <h5 class="text-center text-dark">
+                                Axborot Bazasi
+                            </h5>
+                            <div
+                                class="bg bg-danger rounded-circle d-flex align-items-center justify-content-center profile m-2"
+                            >
+                                <h2 class="text-center text-light">A</h2>
+                            </div>
+                            <div
+                                class="card-body d-flex justify-content-center"
+                            >
                                 <h5 class="card-title text-light">
-                                    ChatGPT-4o versiyasi taqdim etildi
+                                    Axborot Bazasi
                                 </h5>
-                                <p class="card-text text-light">
-                                    Open AI kompaniyasi iyun oyida ChatGPT-4o
-                                    versiyasini taqdim etdi. Bu versiya
-                                    avvalgilardan katta faqr qiladi sababi u
-                                    endi mukammal dedi uning asoschisi.
-                                </p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div
-                    class="col-12 d-flex w-100 justify-content-center d-md-none m-3"
-                >
-                    <a
-                        href="https://daryo.uz/2024/08/19/amsterdamdagi-davlat-xizmatchilariga-telegramdan-foydalanish-taqiqlandi"
-                        class="text-decoration-none"
-                    >
+                <div class="col-3">
+                    <a href="./noresult.html" class="text-decoration-none">
                         <div
-                            class="card rounded bg bg-dark"
-                            style="width: 100%; height: 25rem"
+                            class="card d-flex justify-content-center border border-light bg bg-dark"
+                            style="width: 15rem; height: 15rem"
                         >
-                            <img
-                                src="./tg-post-image.jpg"
-                                class="card-img-top img-fluid h-50"
-                                alt="Suggested new's image not loaded!"
-                            />
-                            <div class="card-body">
-                                <h5 class="card-title text-light">
-                                    Amsterdamdagi davlat xizmatchilariga
-                                    Telegramdan foydalanish taqiqlandi
-                                </h5>
-                                <p class="card-text text-light">
-                                    Avvalroq munitsipalitet “inson huquqlari va
-                                    josuslik bilan bog‘liq xavotirlar tufayli”
-                                    Xitoyda ishlab chiqarilgan kameralardan
-                                    foydalanishni to‘xtatga...
-                                </p>
+                            <h5 class="text-center text-dark">Jahongir</h5>
+                            <div
+                                class="bg bg-primary rounded-circle d-flex align-items-center justify-content-center profile m-2"
+                            >
+                                <h2 class="text-center text-light">J</h2>
+                            </div>
+                            <div
+                                class="card-body d-flex justify-content-center"
+                            >
+                                <h5 class="card-title text-light">Jahongir</h5>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div
-                    class="col-12 d-flex w-100 justify-content-center d-md-none m-3"
-                >
+                <div class="col-3">
                     <a
-                        href="https://kun.uz/news/2024/05/24/narx-urushi-nima-uchun-xitoy-elektromobillari-juda-arzon"
+                        href="./responsiveGoogle.html"
                         class="text-decoration-none"
                     >
                         <div
-                            class="card rounded bg bg-dark"
-                            style="width: 100%; height: 25rem"
+                            class="card d-flex justify-content-center border border-light bg bg-dark"
+                            style="width: 15rem; height: 15rem"
                         >
-                            <img
-                                src="./byd-post-image.jpg"
-                                class="card-img-top img-fluid h-50"
-                                alt="Suggested new's image not loaded!"
-                            />
-                            <div class="card-body">
+                            <h5 class="text-center text-dark">
+                                Nurbek Ahmedov
+                            </h5>
+                            <div
+                                class="bg bg-success rounded-circle d-flex align-items-center justify-content-center profile m-2"
+                            >
+                                <h2 class="text-center text-light">N</h2>
+                            </div>
+                            <div
+                                class="card-body d-flex justify-content-center"
+                            >
                                 <h5 class="card-title text-light">
-                                    “Narx urushi”. Nima uchun Xitoy
-                                    elektromobillari juda arzon?
+                                    Nurbek Ahmedov
                                 </h5>
-                                <p class="card-text text-light">
-                                    Qanday qilib Xitoy kompaniyalari jahon
-                                    avtomobil bozorining an’anaviy yetakchilari
-                                    – nemislar, yaponlar va amerikaliklarni
-                                    ortda qoldiryapti?
-                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="./noresult.html" class="text-decoration-none">
+                        <div
+                            class="card d-flex justify-content-center border border-light bg bg-dark"
+                            style="width: 15rem; height: 15rem"
+                        >
+                            <h5 class="text-center text-dark">Otabek</h5>
+                            <div
+                                class="bg bg-success rounded-circle d-flex align-items-center justify-content-center profile m-2"
+                            >
+                                <h2 class="text-center text-light">N</h2>
+                            </div>
+                            <div
+                                class="card-body d-flex justify-content-center"
+                            >
+                                <h5 class="card-title text-light">Otabek</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 position-absolute col-12-custom">
+                    <a href="./noresult.html" class="text-decoration-none">
+                        <div
+                            class="card d-md-flex justify-content-center border border-light bg bg-dark d-none"
+                            style="width: 15rem; height: 15rem"
+                        >
+                            <h5 class="text-center text-dark">Qo'shish</h5>
+                            <div
+                                class="background rounded-circle d-flex align-items-center justify-content-center profile-custom m-2"
+                            >
+                                <h2 class="text-center text-dark">+</h2>
+                            </div>
+                            <div
+                                class="card-body d-flex justify-content-center"
+                            >
+                                <h5 class="card-title text-light">Qo'shish</h5>
                             </div>
                         </div>
                     </a>
@@ -229,598 +147,42 @@
             </div>
         </div>
         <div
-            class="container-fluid justify-content-center flex-column position-relative bg bg-primary d-none d-md-flex"
+            class="container-fluid d-flex justify-content-between flex-wrap mt-5 footer"
         >
-            <!-- <div class="clearfix"></div> -->
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://www.youtube.com"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="26"
-                                height="26"
-                                fill="currentColor"
-                                class="bi bi-youtube d-flex justify-content-center rounded-circle color"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
-                                />
-                            </svg>
-                        </div>
-                        <p class="text-light">YouTube</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://mail.google.com/mail/u/0/#inbox"
-                        target="_blank"
-                        class="size text-decoration-none position-relative"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <img
-                                src="./mailpicture.png"
-                                alt="Error expected!"
-                                class="img-fluid rounded-circle"
-                            />
-                        </div>
-                        <p class="text-light">Gmail</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://getbootstrap.com/"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <img
-                                src="./png-clipart-bootstrap-logo-thumbnail-tech-companies-thumbnail.png"
-                                alt="Error expected!"
-                                class="img-fluid rounded-circle"
-                            />
-                        </div>
-                        <p class="text-light">Bootstrap</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://github.com/"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <img
-                                src="./imagesGitHub.png"
-                                alt="Error expected!"
-                                class="img-fluid rounded-circle"
-                            />
-                        </div>
-                        <p class="text-light">GitHub</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://www.sammi.ac/course/foundation"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <svg
-                                width="50"
-                                height="50"
-                                viewBox="0 0 50 50"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <rect
-                                    width="50"
-                                    height="50"
-                                    rx="22"
-                                    fill="url(#paint0_linear_28_728)"
-                                />
-                                <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
-                                    d="M12.999 23.5386L14.4985 24.4175V26.1727V27.9304V29.6856V31.4407L15.998 32.3196L17.4975 33.1984L18.997 34.0773L20.4965 34.9561L21.9959 35.835L23.4954 36.7138L24.9949 37.5927L26.4944 36.7138L27.9939 35.835L29.4934 34.9561L30.9929 34.0773L32.4924 33.1984L33.9919 32.3196L35.4914 31.4407V29.6856V27.9304V26.1727V24.4175L36.9909 23.5386V26.7172C36.8668 26.7932 36.7832 26.9376 36.7832 27.0895C36.7832 27.2415 36.8541 27.363 36.9605 27.4416L36.9098 27.5961L36.6084 28.5382H37.2112H37.8141L37.5127 27.5961L37.462 27.4416C37.5709 27.363 37.6393 27.2567 37.6393 27.0895C37.6393 26.9224 37.5177 26.7375 37.3506 26.6767V23.3259L25.3622 16.3001L25.7244 16.0874L37.7254 23.1131L38.5005 22.6598L40 21.7809L38.5005 20.9021L37.001 20.0232L35.5015 19.1444L33.9995 18.2681L32.5 17.3892L31.0005 16.5103L29.501 15.634L28.0015 14.7552L26.502 13.8763L25 13L23.5005 13.8789L22.001 14.7577L20.499 15.634L18.9995 16.5129L17.5 17.3917L16.0005 18.2681L14.501 19.1469L13.0015 20.0258L11.502 20.9046L10 21.7809L11.4995 22.6598L12.999 23.5386ZM23.5005 20.9046L25 20.0258L26.4995 20.9046L27.999 21.7835L26.4995 22.6623L25 23.5412L23.5005 24.4175V26.1752L25 27.0541L26.4995 26.1752L27.999 25.2963L29.4985 24.4175L30.998 23.5386L32.4975 22.6598L33.5284 22.0545L33.997 21.7809L32.7229 21.0363L32.4975 20.9046L30.998 20.0258L29.4985 19.1469L28.0015 18.2681L26.502 17.3892L25.0025 16.5103L23.5005 17.3917L22.001 18.2681L20.5015 19.1469L19.002 20.0258L17.5025 20.9046L16.003 21.7835L17.5025 22.6623V24.4175V26.1727V27.9304V28.832V29.6856L19.002 30.5644L20.5015 31.4433L22.001 32.3221L23.5005 33.201L25 34.0798L26.4995 33.201L27.999 32.3221L29.4985 31.4433L30.998 30.5644L32.4975 29.6856V27.9304V26.1727L30.998 27.0515L29.4985 27.9304L27.999 28.8092L26.4995 29.6881L25 30.5669L23.5005 29.6856L22.001 28.8067L20.5015 27.9278V22.6598L22.001 21.7809L23.5005 20.9046Z"
-                                    fill="white"
-                                />
-                                <defs>
-                                    <linearGradient
-                                        id="paint0_linear_28_728"
-                                        x1="39"
-                                        y1="45"
-                                        x2="5"
-                                        y2="6"
-                                        gradientUnits="userSpaceOnUse"
-                                    >
-                                        <stop stop-color="#6440FB" />
-                                        <stop offset="1" stop-color="#8466FF" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </div>
-                        <p class="text-light">Sammi</p>
-                    </a>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://coddy.tech/courses/html_fundamentals"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <img
-                                src="./coddy-logo-trans.png"
-                                alt="Error expected!"
-                                class="img-fluid rounded-circle"
-                            />
-                        </div>
-                        <p class="text-light">Coddy Study</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://chatgpt.com"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle d-flex justify-content-center align-items-center"
-                            id="svg"
-                        >
-                            <img
-                                src="./ChatGPT-Logo.png"
-                                alt="Error expected!"
-                                class="img-fluid rounded-circle"
-                            />
-                        </div>
-                        <p class="text-light">ChatGPT</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://profile.w3schools.com/login"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <img
-                                src="./w3scoolsImage.png"
-                                alt="Error expected!"
-                                class="img-fluid rounded-circle"
-                            />
-                        </div>
-                        <p class="text-light">w3schools</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="https://monkeytype.com/"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
-                            <img
-                                src="./monkeytypelogo.png"
-                                alt="Error expected!"
-                                class="img-fluid rounded-circle"
-                            />
-                        </div>
-                        <p class="text-light">monkeytype</p>
-                    </a>
-                </div>
-                <div class="col-2 g-0">
-                    <div class="dropdown position-absolute">
-                        <a
-                            class="rounded-circle dropdown-style d-flex justify-content-center align-items-center"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-three-dots-vertical svg-padding"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
-                                />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Action</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Another action</a
-                                >
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#"
-                                    >Something else here</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                    <a
-                        href="./helper.html"
-                        target="_blank"
-                        class="size text-decoration-none"
-                    >
-                        <div
-                            class="rounded-circle svg d-flex justify-content-center align-items-center"
-                        >
+            <div class="row d-flex flex-wrap justify-content-between w-100">
+                <div class="col-6 position-relative d-flex flex-wrap">
+                    <a href="./noresult.html" class="text-decoration-none">
+                        <div class="border border-light rounded-custom d-flex">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="20"
                                 height="20"
                                 fill="currentColor"
-                                class="bi bi-plus-lg"
+                                class="bi bi-person-circle m-2"
                                 viewBox="0 0 16 16"
+                                style="color: aliceblue"
                             >
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                                 <path
                                     fill-rule="evenodd"
-                                    d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
                                 />
                             </svg>
+                            <h5 class="text-light m-2 text-custom">
+                                mehmon rejimi
+                            </h5>
                         </div>
-                        <p class="text-light">Qo'shish</p>
                     </a>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <input type="checkbox" checked />
+                    <h5 class="text-light mt-2 m-2">
+                        ishga tushirilganda ko'rsatish
+                    </h5>
                 </div>
             </div>
         </div>
+        <div class="clearfix"></div>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
