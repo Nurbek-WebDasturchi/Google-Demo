@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    .responsive-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        left: -80px;
+    }
+    h6 {
+        width: 100%;
+    }
+    .card {
+        transform: scale(0.37, 0.37);
+    }
+    .col-12-custom {
+        position: relative;
+        bottom: -110px;
+        right: -150px;
+    }
+    .footer {
+        transform: scale(0.5, 0.5);
+    }
+}
+.container-custom {
+    position: relative;
+    top: 100px;
+}
+.card {
+    font-family: sans-serif;
+}
+.card:hover {
+    background-color: rgb(133, 139, 139) !important;
+}
+.img-style {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 50%;
+}
+.profile,
+.profile-custom {
+    position: relative;
+    left: 25%;
+    height: 100px !important;
+    width: 100px;
+}
+.profile-custom {
+    background-color: rgb(169, 181, 181);
+}
+.footer {
+    position: relative;
+    bottom: -100px;
+}
+input {
+    transform: scale(1.3, 1.3);
+}
+.rounded-custom {
+    border-radius: 20px;
+}
+.text-custom {
+    position: relative;
+    top: -2px;
+    left: -5px;
+}
