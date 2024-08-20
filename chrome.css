@@ -2,6 +2,8 @@
     body {
         background-image: none !important;
         background-color: #212121 !important;
+        overflow: scroll;
+
     }
     /* Nav  */
     .account {
@@ -46,7 +48,7 @@
 body {
     background-image: url("./google-desktop-uff7ugea44y5n8zd.jpg");
     background-repeat: no-repeat;
-    overflow: scroll;
+    
 }
 .clearfix {
     clear: both;
